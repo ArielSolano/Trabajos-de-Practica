@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculardistancia</title>
+</head>
+<body>
+	<form method="POST" action="calculodistancia.php">
+	<h1>Calcular la Distancia</h1>
+	    <strong>Ingrese la Distancia: </strong>
+		<input type="text" name="distancia" id="distancia" placeholder="Distancia"> <strong>Centimetros</strong> <hr>
+		<input type="checkbox" name="pulgadas">Pulgada
+		<input type="checkbox" name="metros">Metros
+		<input type="checkbox" name="kilometros">Kilometros
+		<input type="submit" value="Calcular">
+	</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Salario</title>
+</head>
+<body>
+		<form method="POST" action="salario.php">
+		<h1>Ingrese el Pago</h1> <br>
+			<input type="text" name="pago" placeholder="Introducir el pago">
+		<h1>Ingrese las horas</h1> <br>
+			<input type="text" name="hora" placeholder="Introducir las horas">
+			
+			<input type="submit" value="Calcular">
+		</form>
+</body>
+</html>
